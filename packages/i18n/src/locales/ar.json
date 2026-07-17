@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "دوسييه إكس",
+    "tagline": "كل تفصيل يروي قصة."
+  },
+  "splash": {
+    "detectiveName": "اسم المحقق",
+    "detectiveNamePlaceholder": "أدخل اسمك",
+    "language": "اللغة",
+    "start": "ابدأ التحقيق"
+  },
+  "sidebar": {
+    "archive": "الأرشيف",
+    "caseFile": "ملف القضية",
+    "crimeScene": "مسرح الجريمة",
+    "evidenceLocker": "خزانة الأدلة",
+    "suspects": "المشتبه بهم",
+    "witnesses": "الشهود",
+    "timeline": "الخط الزمني",
+    "notebook": "دفتر ملاحظاتي",
+    "questions": "الأسئلة",
+    "finalReport": "التقرير النهائي",
+    "certificates": "الشهادات",
+    "achievements": "الإنجازات",
+    "settings": "الإعدادات",
+    "logOut": "تسجيل الخروج",
+    "exitCase": "الخروج من القضية"
+  },
+  "profile": {
+    "rank": "الرتبة",
+    "xp": "نقاط الخبرة",
+    "casesSolved": "القضايا المنجزة",
+    "certificates": "الشهادات"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "subtitle": "خصص تجربتك.",
+    "account": "الحساب",
+    "detectiveName": "اسم المحقق",
+    "language": "اللغة والمنطقة",
+    "appearance": "المظهر",
+    "theme": "السمة",
+    "soundMusic": "الصوت والموسيقى",
+    "masterVolume": "مستوى الصوت العام",
+    "music": "الموسيقى",
+    "soundEffects": "المؤثرات الصوتية",
+    "gameplay": "أسلوب اللعب",
+    "autosaveProgress": "الحفظ التلقائي للتقدم",
+    "confirmBeforeExit": "تأكيد قبل الخروج",
+    "showCompletedTags": "إظهار علامات الإنجاز",
+    "dataPrivacy": "البيانات والخصوصية",
+    "exportData": "تصدير بياناتي",
+    "importData": "استيراد التقدم",
+    "resetData": "إعادة تعيين التقدم",
+    "resetAllSettings": "إعادة تعيين كل الإعدادات",
+    "saveChanges": "حفظ التغييرات"
+  },
+  "common": {
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "save": "حفظ",
+    "continue": "متابعة",
+    "loading": "جارٍ التحميل",
+    "comingSoon": "قريبًا"
+  },
+  "archive": {
+    "title": "أرشيف القضايا",
+    "subtitle": "تصفح تحقيقاتك المفتوحة أو احصل على قضايا جديدة.",
+    "empty": "لا توجد قضايا مثبتة بعد. استورد قضية للبدء."
+  },
+  "studio": {
+    "name": "استوديو كيسفورج",
+    "tagline": "مجموعة إنشاء التحقيقات",
+    "dashboard": "لوحة التحكم",
+    "cases": "القضايا",
+    "settings": "الإعدادات",
+    "totalCases": "عدد القضايا",
+    "lastEdit": "آخر تعديل",
+    "totalExports": "عدد التصديرات",
+    "lastExport": "آخر تصدير",
+    "casesEmpty": "لا توجد قضايا بعد. إنشاء القضايا بانتظار وثيقة CASE_SCHEMA.md الرسمية.",
+    "createCase": "إنشاء قضية جديدة",
+    "wizard": {
+      "steps": {
+        "general": "معلومات عامة",
+        "victim": "الضحية",
+        "crimeScene": "مسرح الجريمة",
+        "evidence": "الأدلة",
+        "suspects": "المشتبه بهم",
+        "witnesses": "الشهود",
+        "timeline": "الخط الزمني",
+        "documents": "الوثائق",
+        "questions": "الأسئلة",
+        "solution": "الحل",
+        "preview": "معاينة",
+        "export": "تصدير"
+      }
+    }
+  }
+}

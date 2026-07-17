@@ -1,0 +1,100 @@
+{
+  "app": {
+    "name": "DOSSIER X",
+    "tagline": "Every Detail Tells a Story."
+  },
+  "splash": {
+    "detectiveName": "Detective Name",
+    "detectiveNamePlaceholder": "Enter your name",
+    "language": "Language",
+    "start": "Start Investigation"
+  },
+  "sidebar": {
+    "archive": "Archive",
+    "caseFile": "Case File",
+    "crimeScene": "Crime Scene",
+    "evidenceLocker": "Evidence Locker",
+    "suspects": "Suspects",
+    "witnesses": "Witnesses",
+    "timeline": "Timeline",
+    "notebook": "My Notebook",
+    "questions": "Questions",
+    "finalReport": "Final Report",
+    "certificates": "Certificates",
+    "achievements": "Achievements",
+    "settings": "Settings",
+    "logOut": "Log Out",
+    "exitCase": "Exit Case"
+  },
+  "profile": {
+    "rank": "Rank",
+    "xp": "XP",
+    "casesSolved": "Cases Solved",
+    "certificates": "Certificates"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your experience.",
+    "account": "Account",
+    "detectiveName": "Detective Name",
+    "language": "Language & Region",
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "soundMusic": "Sound & Music",
+    "masterVolume": "Master Volume",
+    "music": "Music",
+    "soundEffects": "Sound Effects",
+    "gameplay": "Gameplay",
+    "autosaveProgress": "Autosave Progress",
+    "confirmBeforeExit": "Confirm Before Exit",
+    "showCompletedTags": "Show Completed Tags",
+    "dataPrivacy": "Data & Privacy",
+    "exportData": "Export My Data",
+    "importData": "Import Progress",
+    "resetData": "Reset Progress",
+    "resetAllSettings": "Reset All Settings",
+    "saveChanges": "Save Changes"
+  },
+  "common": {
+    "cancel": "Cancel",
+    "close": "Close",
+    "save": "Save",
+    "continue": "Continue",
+    "loading": "Loading",
+    "comingSoon": "Coming Soon"
+  },
+  "archive": {
+    "title": "Case Archive",
+    "subtitle": "Access your unlocked investigations or acquire new cases.",
+    "empty": "No cases installed yet. Import a case to begin."
+  },
+  "studio": {
+    "name": "CASEFORGE STUDIO",
+    "tagline": "Investigation Creation Suite",
+    "dashboard": "Dashboard",
+    "cases": "Cases",
+    "settings": "Settings",
+    "totalCases": "Total Cases",
+    "lastEdit": "Last Edit",
+    "totalExports": "Total Exports",
+    "lastExport": "Last Export",
+    "casesEmpty": "No cases yet. Case creation is waiting on the official CASE_SCHEMA.md.",
+    "createCase": "Create New Case",
+    "wizard": {
+      "steps": {
+        "general": "General Info",
+        "victim": "Victim",
+        "crimeScene": "Crime Scene",
+        "evidence": "Evidence",
+        "suspects": "Suspects",
+        "witnesses": "Witnesses",
+        "timeline": "Timeline",
+        "documents": "Documents",
+        "questions": "Questions",
+        "solution": "Solution",
+        "preview": "Preview",
+        "export": "Export"
+      }
+    }
+  }
+}

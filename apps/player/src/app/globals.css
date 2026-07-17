@@ -1,0 +1,8 @@
+/* Player-app-specific global rules. Shared tokens/resets live in
+   @dossier-x/ui/styles.css — this file only adds things unique to this app. */
+
+html,
+body,
+#__next {
+  height: 100%;
+}

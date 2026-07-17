@@ -1,0 +1,117 @@
+/**
+ * DOSSIER X — Global styles
+ *
+ * These three directives are load-bearing: they're the injection point
+ * PostCSS's Tailwind plugin uses to emit the actual generated utility CSS
+ * (`.flex`, `.bg-gold`, `.rounded-card`, etc.) that every component's
+ * className relies on. Without them present in the CSS import graph,
+ * Tailwind's content scanning still runs but has nowhere to inject its
+ * output, so the compiled stylesheet silently contains only hand-written
+ * CSS and every utility class in every component resolves to nothing.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/**
+ * Design tokens are exposed as CSS variables so both Tailwind (via tailwind.config)
+ * and any hand-written CSS reference the same single source of truth as
+ * packages/ui/src/tokens/*.ts. If you change a value, change it in the .ts token
+ * file first, then mirror it here — never the other way around.
+ */
+
+:root {
+  /* Backgrounds */
+  --color-bg-primary: #111315;
+  --color-bg-secondary: #1a1d20;
+  --color-sidebar: #181a1c;
+  --color-card: #24272b;
+
+  /* Paper */
+  --color-paper: #ece5d8;
+  --color-paper-shadow: #d5ccbe;
+
+  /* Brand */
+  --color-gold: #c8a646;
+  --color-archive-brown: #5d4b39;
+
+  /* Semantic */
+  --color-dark-red: #8a1e22;
+  --color-evidence-red: #b22222;
+  --color-success: #2e7d32;
+  --color-warning: #c49000;
+
+  /* Text */
+  --color-text-primary: #f5f5f5;
+  --color-text-secondary: #a5a5a5;
+
+  /* Border */
+  --color-border: rgba(255, 255, 255, 0.08);
+
+  /* Radius */
+  --radius-button: 12px;
+  --radius-card: 18px;
+  --radius-dialog: 20px;
+  --radius-image: 14px;
+
+  /* Layout */
+  --sidebar-width: 320px;
+  --sidebar-width-compact: 88px;
+  --content-max-width: 1600px;
+
+  /* Motion */
+  --motion-fast: 200ms;
+  --motion-base: 300ms;
+  --motion-slow: 500ms;
+  --motion-easing: cubic-bezier(0.22, 1, 0.36, 1);
+
+  /* Fonts (Next.js `next/font` injects the actual values at the app level) */
+  --font-inter: "Inter", system-ui, sans-serif;
+  --font-ibm-plex-arabic: "IBM Plex Sans Arabic", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  font-family: var(--font-inter);
+  -webkit-font-smoothing: antialiased;
+}
+
+html[dir="rtl"] body {
+  font-family: var(--font-ibm-plex-arabic);
+}
+
+/* Respect reduced-motion preference across the whole app */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Visible keyboard focus ring everywhere — required by ACCESSIBILITY spec */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+::selection {
+  background-color: var(--color-gold);
+  color: var(--color-bg-primary);
+}

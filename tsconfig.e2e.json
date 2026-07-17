@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["@playwright/test"],
+    "jsx": "preserve",
+    "noEmit": true
+  },
+  "include": ["e2e"]
+}

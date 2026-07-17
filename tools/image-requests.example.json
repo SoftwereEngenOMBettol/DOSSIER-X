@@ -1,0 +1,228 @@
+[
+  {
+    "targetPath": "covers/cover.webp",
+    "prompt": "Cinematic photograph of an ornate ancient gold diadem displayed under a single spotlight in a dark museum gallery at night, glass display case reflecting faint gala lights in the background, moody blue-and-gold color grading, shallow depth of field, no visible text or logos, no people in frame.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "victim/victim.webp",
+    "prompt": "Professional portrait of a distinguished man in his early 50s, greying hair, wire-rimmed glasses, tweed blazer, warm academic office background softly blurred, contemplative expression, soft even lighting.",
+    "aspectRatio": "4:3"
+  },
+  {
+    "targetPath": "suspects/001.webp",
+    "prompt": "Mugshot-style portrait of a solidly built man in his mid-40s, dark security uniform, composed and unreadable expression, flat grey background, harsh even studio lighting, height-marker lines faintly visible behind them.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "suspects/002.webp",
+    "prompt": "Mugshot-style portrait of a poised woman in her late 40s, sharp business blazer, composed and professional expression, flat grey background, harsh even studio lighting, height-marker lines faintly visible behind them.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "suspects/003.webp",
+    "prompt": "Mugshot-style portrait of a young woman in her late 20s, cardigan over a blouse, anxious and earnest expression, flat grey background, harsh even studio lighting, height-marker lines faintly visible behind them.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "suspects/004.webp",
+    "prompt": "Mugshot-style portrait of a wealthy-looking man in his late 50s, expensive suit, faint self-satisfied smile, flat grey background, harsh even studio lighting, height-marker lines faintly visible behind them.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "suspects/005.webp",
+    "prompt": "Mugshot-style portrait of a stylish woman in her early 30s, professional event-staff attire with an earpiece, stressed but composed expression, flat grey background, harsh even studio lighting, height-marker lines faintly visible behind them.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "witnesses/001.webp",
+    "prompt": "Professional portrait of a woman in her 30s in catering-staff uniform, alert and observant expression, softly blurred gala-kitchen background, warm ambient lighting.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "witnesses/002.webp",
+    "prompt": "Professional portrait of a distinguished older man in a suit, thoughtful expression, softly blurred museum boardroom background, warm ambient lighting.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "witnesses/003.webp",
+    "prompt": "Professional portrait of a middle-aged man in a museum security uniform behind a front desk, calm and attentive expression, warm ambient lighting.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "witnesses/004.webp",
+    "prompt": "Professional portrait of a woman in her 40s in formal gala attire, thoughtful expression, softly blurred museum gallery background, warm ambient lighting.",
+    "aspectRatio": "3:4"
+  },
+  {
+    "targetPath": "crime_scene/1.webp",
+    "prompt": "Wide-angle nighttime photograph of an academic office in disarray, an overturned chair, papers scattered across a desk, warm desk-lamp lighting against dark surroundings, documentary photography style, no people.",
+    "aspectRatio": "16:9"
+  },
+  {
+    "targetPath": "crime_scene/2.webp",
+    "prompt": "Close-up nighttime photograph of a museum display case with broken glass, a numbered forensic marker on the floor nearby, dim gallery lighting, documentary forensic-photography style, no people.",
+    "aspectRatio": "16:9"
+  },
+  {
+    "targetPath": "crime_scene/3.webp",
+    "prompt": "Wide-angle nighttime photograph of an empty museum gallery hall with rows of display cases, one case visibly broken and empty, dim emergency lighting, documentary photography style, no people.",
+    "aspectRatio": "16:9"
+  },
+  {
+    "targetPath": "evidence/001.webp",
+    "prompt": "Top-down forensic evidence photography of a shattered glass display case fragment on a lab tray, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/002.webp",
+    "prompt": "Top-down forensic evidence photography of a heavy bronze bookend with faint dark stains in its engraved grooves, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/003.webp",
+    "prompt": "Top-down forensic evidence photography of an overturned office chair, photographed from above, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/004.webp",
+    "prompt": "Top-down forensic evidence photography of a smartphone screen showing a call log entry, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/005.webp",
+    "prompt": "Top-down forensic evidence photography of a computer screen showing an unfinished draft letter, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/006.webp",
+    "prompt": "Top-down forensic evidence photography of a printed acquisitions ledger page with a highlighted entry, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/007.webp",
+    "prompt": "Top-down forensic evidence photography of an old insurance appraisal photograph printed on paper, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/008.webp",
+    "prompt": "Top-down forensic evidence photography of a recent appraisal photograph printed on paper, side by side comparison, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/009.webp",
+    "prompt": "Top-down forensic evidence photography of a personal research folder with handwritten sticky notes, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/010.webp",
+    "prompt": "Top-down forensic evidence photography of a printed bank transfer statement with a highlighted line, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/011.webp",
+    "prompt": "Top-down forensic evidence photography of a security terminal screen showing an alarm trigger log, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/012.webp",
+    "prompt": "Top-down forensic evidence photography of a printed exterior badge access log sheet, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/013.webp",
+    "prompt": "Top-down forensic evidence photography of a printed badge access log with a highlighted timestamp entry, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/014.webp",
+    "prompt": "Top-down forensic evidence photography of a handwritten audit notebook page, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/015.webp",
+    "prompt": "Top-down forensic evidence photography of a computer screen showing a sent email, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/016.webp",
+    "prompt": "Top-down forensic evidence photography of a security-camera still frame with a timestamp overlay, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/017.webp",
+    "prompt": "Top-down forensic evidence photography of a security-camera timeline readout showing a gap in footage, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/018.webp",
+    "prompt": "Top-down forensic evidence photography of a desk calendar page with a handwritten note, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/019.webp",
+    "prompt": "Top-down forensic evidence photography of draft acquisition paperwork documents on a clipboard, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/020.webp",
+    "prompt": "Top-down forensic evidence photography of a printed event logistics run-sheet with timestamps, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/021.webp",
+    "prompt": "Top-down forensic evidence photography of a short handwritten staff list on notepaper, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/022.webp",
+    "prompt": "Top-down forensic evidence photography of an official authentication request form, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/023.webp",
+    "prompt": "Top-down forensic evidence photography of a personnel file folder with an id photo clipped to it, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/024.webp",
+    "prompt": "Top-down forensic evidence photography of an initial incident report form on a clipboard, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/025.webp",
+    "prompt": "Top-down forensic evidence photography of a worn personal notebook, open, pen resting on the page, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  },
+  {
+    "targetPath": "evidence/026.webp",
+    "prompt": "Top-down forensic evidence photography of a forensic trace-evidence sample bag with a uniform cuff swatch, neutral grey background, small numbered evidence tag, cool even studio lighting, no people, documentary forensic-photography style.",
+    "aspectRatio": "4:3",
+    "maxDimension": 1600
+  }
+]

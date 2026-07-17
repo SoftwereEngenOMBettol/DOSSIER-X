@@ -1,0 +1,17 @@
+{
+  "name": "dossier-x-tools",
+  "private": true,
+  "type": "module",
+  "description": "Standalone helper scripts for working with .casepack files and case assets.",
+  "dependencies": {
+    "jszip": "^3.10.1",
+    "@dossier-x/image-provider": "workspace:*",
+    "@dossier-x/image-pipeline": "workspace:*"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.1"
+  },
+  "scripts": {
+    "generate-images": "tsx generate-case-images.ts"
+  }
+}

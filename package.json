@@ -1,0 +1,39 @@
+{
+  "name": "dossier-x",
+  "private": true,
+  "version": "0.1.0",
+  "description": "DOSSIER X — offline, document-driven detective investigation platform (monorepo)",
+  "packageManager": "pnpm@9.0.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "dev:player": "pnpm --filter @dossier-x/player dev",
+    "dev:caseforge": "pnpm --filter @dossier-x/caseforge dev",
+    "build": "pnpm -r build",
+    "build:player": "pnpm --filter @dossier-x/player build",
+    "build:caseforge": "pnpm --filter @dossier-x/caseforge build",
+    "lint": "pnpm -r lint",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm -r typecheck && tsc --noEmit -p tsconfig.e2e.json",
+    "test": "pnpm -r test",
+    "test:watch": "pnpm --filter @dossier-x/storage test:watch",
+    "test:e2e": "playwright test",
+    "clean": "rimraf apps/player/.next apps/caseforge/.next node_modules/.cache"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "@types/node": "^20.14.0",
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "prettier-plugin-tailwindcss": "^0.6.0",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
+}

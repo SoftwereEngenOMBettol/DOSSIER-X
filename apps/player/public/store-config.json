@@ -1,11 +1,11 @@
 {
   "_comment": "Edit the purchaseUrls below to update where each case's Buy button links. No code changes or rebuild logic needed — this file is fetched at runtime. Replace every placeholder URL with your real Gumroad link before launch.",
   "purchaseUrls": {
-    "DX002": "https://YOUR-STORE.gumroad.com/l/DX002",
-    "DX003": "https://YOUR-STORE.gumroad.com/l/DX003",
-    "DX004": "https://YOUR-STORE.gumroad.com/l/DX004",
-    "DX005": "https://YOUR-STORE.gumroad.com/l/DX005",
-    "DX006": "https://YOUR-STORE.gumroad.com/l/DX006",
-    "DX007": "https://YOUR-STORE.gumroad.com/l/DX007"
+    "DX002": "https://dossierxdx.gumroad.com/l/DX002",
+    "DX003": "https://dossierxdx.gumroad.com/l/DX003",
+    "DX004": "https://dossierxdx.gumroad.com/l/DX004",
+    "DX005": "https://dossierxdx.gumroad.com/l/DX005", 
+    "DX006": "https://dossierxdx.gumroad.com/l/DX006",
+    "DX007": "https://dossierxdx.gumroad.com/l/DX007"
   }
 }
